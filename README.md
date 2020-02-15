@@ -4,7 +4,8 @@ In this document, we'll break down all of the different parts of the save file w
 
 With that out of the way, lets start by breaking it down. 
 
-## Lines 1-3: "Name" "PlayerId" "CharacterId" "DifficultyMode" "League" "UpdatedAt"
+## Lines 2-7: 
+### Contents: "Name" "PlayerId" "CharacterId" "DifficultyMode" "League" "UpdatedAt"
 
 ### "Name"
 
@@ -40,7 +41,13 @@ Currently not used in general day-to-day editing and the function is unknown at 
 
 This is when the last update was made by the game client. 
 
-	"CharacterCustomization":	{
+## Lines 8-19
+### Contents: "CharacterCustomization"
+
+A brief look at this set of variables allows us to choose each part of the character that is available on creation through the in game UI. This section will be expanded upon when all of the values for each variable have been identified. 
+
+The interesting thing to note, that along with the cosmetic values, we can also see the players "Archetype" choice amongst the cosmetics.
+
 		"Sex":	1,
 		"Face":	6,
 		"SkinColor":	600,
@@ -52,6 +59,20 @@ This is when the last update was made by the game client.
 		"RightEye":	12,
 		"Archetype":	2
 	},
+	
+## Lines 20-33 "Stats"
+
+This is everyones dream, to be able to modify values in a clean and easy way. The numeric values that you see / change here will be directly visible and effecting your character in game. 
+
+For further clarification, those marked in bold are different to those in the save file, so do keep in mind which stats your editing. Also, they're not in the same order is in the game.
+
+Name in JSON | Name in Game
+----------------------------
+Strength | **Fortitude**
+Agility | Agility
+Constitution | **Toughness**
+Power | **Wisdom**
+
 	"Stats":	{
 		"Strength":	90,
 		"Agility":	90,
@@ -65,5 +86,3 @@ This is when the last update was made by the game client.
 		"PrimordialAffinity":	"999999",
 		"IsAutoDashAvailable":	1,
 		"DashStatusActivation":	0
-
-This repository is mainly a tutorial for how to edit the Character Save JSON
