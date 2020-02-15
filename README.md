@@ -5,7 +5,14 @@ In this document, we'll break down all of the different parts of the save file w
 With that out of the way, lets start by breaking it down. 
 
 ## Lines 2-7: 
-### Contents: "Name" "PlayerId" "CharacterId" "DifficultyMode" "League" "UpdatedAt"
+### Contents: File Information
+
+	"Name":	"Player",
+	"PlayerId":	"offlineplayer",
+	"CharacterId":	"Player",
+	"DifficultyMode":	1,
+	"League":	1,
+	"UpdatedAt":	"20-02-13T18:46:10Z",
 
 ### "Name"
 
