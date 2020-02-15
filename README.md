@@ -64,14 +64,17 @@ The interesting thing to note, that along with the cosmetic values, we can also 
 
 This is everyones dream, to be able to modify values in a clean and easy way. The numeric values that you see / change here will be directly visible and effecting your character in game. 
 
-For further clarification, those marked in bold are different to those in the save file, so do keep in mind which stats your editing. Also, they're not in the same order is in the game.
+For further clarification, these stats are named in game differently to those in the save file, so do keep in mind which stats your editing. Also, they're not in the same order is in the game.
 
 Name in JSON | Name in Game
-----------------------------
-Strength | **Fortitude**
+-------------|---------------
+Strength | Fortitude
 Agility | Agility
-Constitution | **Toughness**
-Power | **Wisdom**
+Constitution | Toughness
+Power | Wisdom
+
+
+
 
 	"Stats":	{
 		"Strength":	90,
