@@ -101,5 +101,53 @@ Minimum Value | Known Safe Value
 --------------|------------------
 10 | 1000
 
-Given that a character will be able recieve 890 points over the
+Given that a character will be able recieve 890 points over the course of the levelling process, these values are given as basics that you'd be able to set across all fields. They can more than likely go into the 10,000 range, but this hasn't been tested at the time of writing. 
+
+### "Level"
+This is your character level. The one that your experience bar increases when you fill it up.
+
+Minimum Value | Maximum Value
+--------------|------------------
+1 | 90
+
+### "PassiveSkillPoints"
+
+This is the number of **Unassigned Passive Skill Points** that your character has available. The maximum without further complications at this time is 89, due to the characters maximum level being 90.
+
+Minimum Value | Maximum Value
+--------------|------------------
+0 | 89
+
+### "CurrentXP"
+
+This dictates the amount of experience that is currently displayed in the Experience Bar. Values can differ depending on the level of the character as the amount needed will increase with each passing level. Recommended to set the "Level" of the character instead of the "Experience" I would recommend setting this to **0**
+
+### "RemainingStatsPoints"
+
+This is the number of **Unassigned Stat Points** that your character has available. The known safe value is 890, as we gain 10 per level on the way to level 90. Further testing will be needed to see if there are any issues going above this value.
+
+Minimum Value | Known Safe Value
+--------------|------------------
+0 | 890
+
+### "Gold"
+
+$$$$ - You know what this is.
+
+Minimum Value | Known Safe Value
+--------------|------------------
+0 | 999999
+
+### "PrimordialAffinity"
+
+This is the Purple Currency that is gained when you sell Enneracts to the merchant in town or redeem a skill that you already own. 
+
+Minimum Value | Known Safe Value
+--------------|------------------
+0 | 999999
+
+### "IsAutoDashAvailable" 1 / "DashStatusActivation" 0
+
+At this moment I would recommend leaving these at their default values.
+
 
