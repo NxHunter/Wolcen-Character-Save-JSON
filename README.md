@@ -146,7 +146,9 @@ Minimum Value | Known Safe Value
 --------------|------------------
 0 | 999999
 
-### "IsAutoDashAvailable" 1 / "DashStatusActivation" 0 :no_entry:
+### "IsAutoDashAvailable" 1 / "DashStatusActivation" 0 
+
+I would not recommend touching these at this time. 
 
 ## Line 34-39 "UnlockedSkills"
 
