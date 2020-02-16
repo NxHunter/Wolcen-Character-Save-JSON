@@ -241,4 +241,67 @@ This group of information is the skills that are placed onto your right click an
 
 This seems to be a set of indicator values to ensure the game client knows which versions of particular prompts to display. I would advise do not change these. 
 
+## Line 61-120
 
+	"CharacterCosmeticInventory":	{
+		"CosmeticColors":	{
+			"ArmL":	{
+				"ColorSlots":	[]
+			},
+			"ArmR":	{
+				"ColorSlots":	[]
+			},
+			"Boots":	{
+				"ColorSlots":	[]
+			},
+			"Chest":	{
+				"ColorSlots":	[]
+			},
+			"Helmet":	{
+				"ColorSlots":	[]
+			},
+			"Pant":	{
+				"ColorSlots":	[]
+			},
+			"ShoulderL":	{
+				"ColorSlots":	[]
+			},
+			"ShoulderR":	{
+				"ColorSlots":	[]
+			}
+		},
+		"CosmeticSkinT":	{
+			"Equip":	{
+				"ArmL":	{
+				},
+				"ArmR":	{
+				},
+				"Boots":	{
+				},
+				"Chest":	{
+				},
+				"Helmet":	{
+				},
+				"Pant":	{
+				},
+				"ShoulderL":	{
+				},
+				"ShoulderR":	{
+				}
+			}
+		},
+		"CosmeticWeaponT":	{
+			"WeaponSkinTransfers":	{
+				"WeaponLeft":	{
+					"Ids":	{
+					}
+				},
+				"WeaponRight":	{
+					"Ids":	{
+					}
+				}
+			}
+		}
+	},
+	
+This block of values are detailing any transmogs that the player has.
