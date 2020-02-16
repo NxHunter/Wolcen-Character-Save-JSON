@@ -204,3 +204,5 @@ An example of having multiple high level skills set up looks like the following:
 			"CurrentXp":	"0",
 			"Variants":	"0000000000000000"
 		},
+
+The above can be used as a template, ensure that if you copy and paste, you copy an entire section stating from { and ending with },
