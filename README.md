@@ -5,7 +5,7 @@ In this document, we'll break down all of the different parts of the save file w
 With that out of the way, lets start by breaking it down. 
 
 ## Lines 2-7: 
-### Contents: File Information
+### Contents: File Information :heavy_check_mark:
 
 	"Name":	"Player",
 	"PlayerId":	"offlineplayer",
@@ -49,7 +49,7 @@ Currently not used in general day-to-day editing and the function is unknown at 
 This is when the last update was made by the game client. 
 
 ## Lines 8-19
-### Contents: "CharacterCustomization"
+### Contents: "CharacterCustomization" :heavy_check_mark:
 
 		"Sex":	1,
 		"Face":	6,
@@ -67,7 +67,7 @@ A brief look at this set of variables allows us to choose each part of the chara
 
 The interesting thing to note, that along with the cosmetic values, we can also see the players "Archetype" choice amongst the cosmetics.
 	
-## Lines 20-33 "Stats"
+## Lines 20-33 "Stats" :heavy_check_mark:
 
 
 	"Stats":	{
@@ -130,7 +130,7 @@ Minimum Value | Known Safe Value
 --------------|------------------
 0 | 890
 
-### "Gold"
+### "Gold" :heavy_dollar_sign:
 
 $$$$ - You know what this is.
 
@@ -146,7 +146,7 @@ Minimum Value | Known Safe Value
 --------------|------------------
 0 | 999999
 
-### "IsAutoDashAvailable" 1 / "DashStatusActivation" 0
+### "IsAutoDashAvailable" 1 / "DashStatusActivation" 0 :no_entry:
 
 At this moment I would recommend leaving these at their default values.
 
