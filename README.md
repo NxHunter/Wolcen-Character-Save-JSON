@@ -95,6 +95,11 @@ Agility | Agility
 Constitution | Toughness
 Power | Wisdom
 
+### Safe Values for "Strength" / "Agility" / "Constitution" / "Power"
 
+Minimum Value | Known Safe Value
+--------------|------------------
+10 | 1000
 
+Given that a character will be able recieve 890 points over the
 
