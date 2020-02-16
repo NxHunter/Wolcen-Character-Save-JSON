@@ -206,3 +206,39 @@ An example of having multiple high level skills set up looks like the following:
 		},
 
 The above can be used as a template, ensure that if you copy and paste, you copy an entire section stating from { and ending with },
+
+## Line 40-43
+
+	"SkillBar":	[{
+			"Slot":	12,
+			"SkillName":	"player_brutalstrike"
+		}],
+
+This group of information is the skills that are placed onto your right click and 1,2,3,4 slots. There is normally very little need to manually configure this at this time. These changes are best made using the UI in game. 
+
+## Line 44-50
+
+	"BeltConfig":	[{
+			"Id":	0,
+			"Locked":	0
+		}, {
+			"Id":	1,
+			"Locked":	1
+		}],
+
+## Line 51-60
+
+	"Versions":	{
+		"SaveVersion":	"1.0.0.0",
+		"StatsVersion":	"1.0.0.0",
+		"ItemsVersion":	"1.0.0.0",
+		"InventoryVersion":	"1.0.0.0",
+		"ASTVersion":	"1.0.0.0",
+		"ASTVariantsVersion":	"1.0.0.0",
+		"PSTVersion":	"1.0.0.0",
+		"StorylineVersion":	"1.0.0.0"
+	},
+
+This seems to be a set of indicator values to ensure the game client knows which versions of particular prompts to display. I would advise do not change these. 
+
+
