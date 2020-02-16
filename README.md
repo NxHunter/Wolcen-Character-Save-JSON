@@ -148,6 +148,57 @@ Minimum Value | Known Safe Value
 
 ### "IsAutoDashAvailable" 1 / "DashStatusActivation" 0 :no_entry:
 
-At this moment I would recommend leaving these at their default values.
+## Line 34-39 "UnlockedSkills"
 
 
+	"UnlockedSkills":	[{
+			"SkillName":	"player_brutalstrike",
+			"Level":	1,
+			"CurrentXp":	"0",
+			"Variants":	"0000000000000000"
+		}],
+
+This group of information is used to define which skills your character has learnt through Enneracts. In these fields we can see key information about how they are broken down. 
+
+### "SkillName" 
+
+This is the internal name of the skill that is available for your character. All of the skills can be found at the following link. The skill name is the same as the .xml file as a **UID**
+
+https://gitlab.com/erosson/wolcendb/-/tree/master/datamine/Game/Umbra/Skills/NewSkills/Player
+
+
+### "Level"
+
+This dictates the level of skill which in turn, unlocks runes and points to be able to assign to them.
+
+Minimum Value | Maximum Value
+--------------|------------------
+1 | 90
+
+### "CurrentXp":
+
+This sets the current experience value for the skill. I would recommend just setting the level, not the xp and leaving this field at **0**
+
+### "Variants" :no_entry:
+
+This has a use, but little is known about it as of yet.
+
+### Example
+An example of having multiple high level skills set up looks like the following:
+
+	"UnlockedSkills":	[{
+			"SkillName":	"player_aetherblade",
+			"Level":	30,
+			"CurrentXp":	"0",
+			"Variants":	"0000000000000000"
+		}, {
+			"SkillName":	"player_aetherblast",
+			"Level":	30,
+			"CurrentXp":	"0",
+			"Variants":	"0000000000000000"
+		}, {
+			"SkillName":	"player_arrowsrain",
+			"Level":	30,
+			"CurrentXp":	"0",
+			"Variants":	"0000000000000000"
+		},
